@@ -3,6 +3,8 @@
 
 [link to my pre-processed data](https://www.kaggle.com/soheild91/volcan2)
 
+you can also check the first version of my DNN and xgboost method [on kaggel](https://www.kaggle.com/soheild91/ingv-nn-xgb-baseline)
+
 ## What I did in this Jupyter Notebook:
 - [x] extracting statestical features from the raw data-set. the raw data-set, containes data of 10 different sensors which are captured with a 1ms interval. I used mean, median, quantiles, kurtosis ... on the raw data (on moving average with a window lenght equal to 50) and FTT of it.
 - [x] removing data with variance equal to zero or correlation more than 0.99
