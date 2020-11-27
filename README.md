@@ -6,8 +6,8 @@
 you can also check the first version of my DNN and xgboost method [on kaggel](https://www.kaggle.com/soheild91/ingv-nn-xgb-baseline)
 
 ## What I did in this Jupyter Notebook:
-- [x] extracting statestical features from the raw data-set. the raw data-set, containes data of 10 different sensors which are captured with a 1ms interval. I used mean, median, quantiles, kurtosis ... on the raw data (on moving average with a window lenght equal to 50) and FTT of it.
-- [x] removing data with variance equal to zero or correlation more than 0.99
-- [x] extracting important features using built-int xgboost method
-- [x] performing hyper-parameter tuning by using Optuna
-- [x] using StraightKfol for training to keep similar distribution over the folds
+- [x] Extracting statistical features from the raw data-set. The raw data-set contains data of 10 different sensors, which are captured with a 1ms interval. I used the mean, median, quantiles, kurtosis ... on the raw data (on moving average with a window length equal to 50) and FTT of it.
+- [x] Removing data with variance equal to zero or correlation more than 0.99
+- [x] Extracting important features using built-int xgboost method
+- [x] Performing hyperparameter tuning by using Optuna
+- [x] Using StraightKfol for training to keep similar distribution over the folds
